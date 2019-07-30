@@ -1,0 +1,19 @@
+
+
+No  Name                  Plotter                Plot Type             Levels
+--  ----                  -------                ---------             ------
+ 1  route top             Photo-Plotter          Routing                1 
+ 2  L2_GND                Photo-Plotter          Routing                2 
+ 3  L3_Power              Photo-Plotter          Routing                3 
+ 4  route bottom          Photo-Plotter          Routing                4 
+ 5  silk top              Photo-Plotter          Silkscreen Top         1 26 
+ 6  silk bottom           Photo-Plotter          Silkscreen Bottom      4 29 
+ 7  paste top             Photo-Plotter          Paste Mask             1 23 
+ 8  paste bottom          Photo-Plotter          Paste Mask             4 22 
+ 9  solder top            Photo-Plotter          Solder Mask            1 21 
+10  solder bottom         Photo-Plotter          Solder Mask            4 28 
+11  drill drawing         Photo-Plotter          Drill Drawing          1 24 
+12  NC Drill              NC Drill               Plated Drill           1 
+
+
+
