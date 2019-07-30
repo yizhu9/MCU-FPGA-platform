@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Apr 13 21:30:52 2017
+Quartus II 32-bit Version : 13.1.4 Build 182 03/12/2014 SJ Full Version
+Revision Name : proj_1
+Top-level Entity Name : IntF
+Family : Cyclone IV E
+Total logic elements : 92
+    Total combinational functions : 60
+    Dedicated logic registers : 32
+Total registers : 32
+Total pins : 92
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

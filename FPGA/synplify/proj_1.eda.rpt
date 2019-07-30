@@ -1,0 +1,59 @@
+EDA Netlist Writer report for proj_1
+Thu Apr 13 21:31:27 2017
+Quartus II 32-bit Version 13.1.4 Build 182 03/12/2014 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2014 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                                       ;
++---------------------------+------------------------------------------------------+
+; EDA Netlist Writer Status ; No Output Files Generated - Thu Apr 13 21:31:27 2017 ;
+; Revision Name             ; proj_1                                               ;
+; Top-level Entity Name     ; IntF                                                 ;
+; Family                    ; Cyclone IV E                                         ;
++---------------------------+------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit EDA Netlist Writer
+    Info: Version 13.1.4 Build 182 03/12/2014 SJ Full Version
+    Info: Processing started: Thu Apr 13 21:31:26 2017
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off proj_1 -c proj_1
+Warning (199027): Can't generate output files. Specify command-line options to generate output files, or update EDA tool settings using GUI or Tcl script.
+Info: Quartus II 32-bit EDA Netlist Writer was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 324 megabytes
+    Info: Processing ended: Thu Apr 13 21:31:27 2017
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+

@@ -1,0 +1,75 @@
+#1001 define_attribute {p:nADV} {altera_chip_pin_lc} {A10}
+define_attribute  {p:nADV} {altera_chip_pin_lc}  {A10}  
+
+#1002 define_attribute {p:nE1} {altera_chip_pin_lc} {C8}
+define_attribute  {p:nE1} {altera_chip_pin_lc}  {C8}  
+
+#1003 define_attribute {p:nWR} {altera_chip_pin_lc} {B8}
+define_attribute  {p:nWR} {altera_chip_pin_lc}  {B8}  
+
+#1004 define_attribute {p:nRD} {altera_chip_pin_lc} {A7}
+define_attribute  {p:nRD} {altera_chip_pin_lc}  {A7}  
+
+#1005 define_attribute {p:nWAIT} {altera_chip_pin_lc} {A8}
+define_attribute  {p:nWAIT} {altera_chip_pin_lc}  {A8}  
+
+#1006 define_attribute {p:CLK_25M} {altera_chip_pin_lc} {E1}
+define_attribute  {p:CLK_25M} {altera_chip_pin_lc}  {E1}  
+
+#1007 define_attribute {p:ADDRH[25:16]} {altera_chip_pin_lc} {B9,A9,B10,B12,A12,B11,A11,B5,A5,C6}
+define_attribute  {p:ADDRH[*]} {altera_chip_pin_lc}  {B9,A9,B10,B12,A12,B11,A11,B5,A5,C6}  
+
+#1008 define_attribute {p:AD[15:0]} {altera_chip_pin_lc} {E7,F7,D8,E8,F8,F9,E9,C9,D9,E10,C11,D11,A6,B6,B4,A4}
+define_attribute  {p:AD[*]} {altera_chip_pin_lc}  {E7,F7,D8,E8,F8,F9,E9,C9,D9,E10,C11,D11,A6,B6,B4,A4}  
+
+#1009 define_attribute {p:DAC_D[11:0]} {altera_chip_pin_lc} {F6,F15,G15,F16,G16,C14,D12,D14,F11,G11,F10,K10}
+define_attribute  {p:DAC_D[*]} {altera_chip_pin_lc}  {F6,F15,G15,F16,G16,C14,D12,D14,F11,G11,F10,K10}  
+
+#1010 define_attribute {p:nDAC_CS} {altera_chip_pin_lc} {K12}
+define_attribute  {p:nDAC_CS} {altera_chip_pin_lc}  {K12}  
+
+#1011 define_attribute {p:nDAC_WR} {altera_chip_pin_lc} {J11}
+define_attribute  {p:nDAC_WR} {altera_chip_pin_lc}  {J11}  
+
+#1012 define_attribute {p:samp_complete} {altera_chip_pin_lc} {K11}
+define_attribute  {p:samp_complete} {altera_chip_pin_lc}  {K11}  
+
+#1013 define_attribute {p:AC573_LE} {altera_chip_pin_lc} {L14}
+define_attribute  {p:AC573_LE} {altera_chip_pin_lc}  {L14}  
+
+#1014 define_attribute {p:FPGA_F5} {altera_chip_pin_lc} {F5}
+define_attribute  {p:FPGA_F5} {altera_chip_pin_lc}  {F5}  
+
+#1015 define_attribute {p:FPGA_J6} {altera_chip_pin_lc} {J6}
+define_attribute  {p:FPGA_J6} {altera_chip_pin_lc}  {J6}  
+
+#1016 define_attribute {p:FPGA_P8} {altera_chip_pin_lc} {P8}
+define_attribute  {p:FPGA_P8} {altera_chip_pin_lc}  {P8}  
+
+#1017 define_attribute {p:FPGA_M7} {altera_chip_pin_lc} {M7}
+define_attribute  {p:FPGA_M7} {altera_chip_pin_lc}  {M7}  
+
+#1018 define_attribute {p:FPGA_N2} {altera_chip_pin_lc} {N2}
+define_attribute  {p:FPGA_N2} {altera_chip_pin_lc}  {N2}  
+
+#1019 define_attribute {p:SRAM_D[15:0]} {altera_chip_pin_lc} {D5,D6,C3,D4,E6,D3,F3,E5,F2,D1,G2,F1,J1,G1,K1,J2}
+define_attribute  {p:SRAM_D[*]} {altera_chip_pin_lc}  {D5,D6,C3,D4,E6,D3,F3,E5,F2,D1,G2,F1,J1,G1,K1,J2}  
+
+#1020 define_attribute {p:SRAM_A[19:0]} {altera_chip_pin_lc} {L1,K2,L2,K8,K5,K6,L3,L4,L6,N3,P3,M6,N5,N6,P6,L7,P2,P1,T2,R1}
+define_attribute  {p:SRAM_A[*]} {altera_chip_pin_lc}  {L1,K2,L2,K8,K5,K6,L3,L4,L6,N3,P3,M6,N5,N6,P6,L7,P2,P1,T2,R1}  
+
+#1021 define_attribute {p:nSRAM_CE} {altera_chip_pin_lc} {N1}
+define_attribute  {p:nSRAM_CE} {altera_chip_pin_lc}  {N1}  
+
+#1022 define_attribute {p:nSRAM_WE} {altera_chip_pin_lc} {R3}
+define_attribute  {p:nSRAM_WE} {altera_chip_pin_lc}  {R3}  
+
+#1023 define_attribute {p:nSRAM_OE} {altera_chip_pin_lc} {T3}
+define_attribute  {p:nSRAM_OE} {altera_chip_pin_lc}  {T3}  
+
+#1024 define_io_standard
+define_io_standard 
+
+
+#1025 define_clock {p:nADV} -name {IntF|nADV} -ref_rise {0.000000} -ref_fall {10.000000} -uncertainty {0.000000} -period {20.000000} -clockgroup {Inferred_clkgroup_0} -rise {0.000000} -fall {10.000000}
+#1026 define_clock {p:nWR} -name {IntF|nWR} -ref_rise {0.000000} -ref_fall {10.000000} -uncertainty {0.000000} -period {20.000000} -clockgroup {Inferred_clkgroup_1} -rise {0.000000} -fall {10.000000}

@@ -1,0 +1,29 @@
+@P:  Part : ep4ce10fc17-8
+@P:  Worst Slack : NA
+@P:  IntF|nADV - Estimated Frequency : NA
+@P:  IntF|nADV - Requested Frequency : 50.0 MHz
+@P:  IntF|nADV - Estimated Period : NA
+@P:  IntF|nADV - Requested Period : 20.000
+@P:  IntF|nADV - Slack : NA
+@P:  IntF|nWR - Estimated Frequency : NA
+@P:  IntF|nWR - Requested Frequency : 50.0 MHz
+@P:  IntF|nWR - Estimated Period : NA
+@P:  IntF|nWR - Requested Period : 20.000
+@P:  IntF|nWR - Slack : NA
+@P:  Worst Slack(min analysis) : NA
+@P:  IntF|nADV - Estimated Frequency(min analysis) : NA
+@P:  IntF|nADV - Requested Frequency(min analysis) : 50.0 MHz
+@P:  IntF|nADV - Estimated Period(min analysis) : NA
+@P:  IntF|nADV - Requested Period(min analysis) : 20.000
+@P:  IntF|nADV - Slack(min analysis) : NA
+@P:  IntF|nWR - Estimated Frequency(min analysis) : NA
+@P:  IntF|nWR - Requested Frequency(min analysis) : 50.0 MHz
+@P:  IntF|nWR - Estimated Period(min analysis) : NA
+@P:  IntF|nWR - Requested Period(min analysis) : 20.000
+@P:  IntF|nWR - Slack(min analysis) : NA
+@P: IntF Part : ep4ce10fc17-8
+@P: IntF I/O ATOMs : 47
+@P: IntF Total LUTs : 44 
+@P: IntF Register bits : 32
+@P: IntF DSP Blocks : 0 (0 nine-bit DSP elements)
+@P:  CPU Time : 0h:00m:01s

@@ -1,0 +1,66 @@
+#--  Synopsys, Inc.
+#--  Version H-2013.03
+#--  Project file F:\zyd\FPGA\synplify\proj_1.prj
+
+#project files
+add_file -constraint "./proj_1.sdc"
+add_file -vhdl -lib work "./pll.vhd"
+add_file -vhdl -lib work "./test.vhd"
+
+
+#implementation: "synplify"
+impl -add synplify -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+
+#device options
+set_option -technology CYCLONEIV-E
+set_option -part EP4CE10
+set_option -package FC17
+set_option -speed_grade -8
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "IntF"
+
+# altera_options
+set_option -RWCheckOnRam 1
+
+# mapper_options
+set_option -frequency 50.000000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# Altera STRATIX
+set_option -run_prop_extract 1
+set_option -maxfan 30
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -update_models_cp 0
+set_option -retiming 0
+set_option -no_sequential_opt 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -quartus_version 12.1
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./proj_1.vqm"
+
+#design plan options
+impl -active "synplify"

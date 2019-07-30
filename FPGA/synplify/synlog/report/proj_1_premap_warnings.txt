@@ -1,0 +1,3 @@
+@W: FA279 |Inconsistent Quartus device library version: Verilog/VHDL compiled using quartus_II121 device library, but clearbox version is quartus_II131.
+@W: MT529 :"f:\zyd\fpga\synplify\test.vhd":103:3:103:4|Found inferred clock IntF|nADV which controls 16 sequential elements including ADDRL[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"f:\zyd\fpga\synplify\test.vhd":134:2:134:3|Found inferred clock IntF|nWR which controls 32 sequential elements including fre[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

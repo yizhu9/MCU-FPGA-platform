@@ -1,0 +1,2 @@
+@E: CD297 :"F:\zyd\FPGA\ZZX\test.vhd":123:7:123:11|Width mismatch, location has width 16, value 14
+

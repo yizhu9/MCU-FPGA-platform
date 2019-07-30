@@ -1,0 +1,68 @@
+Synopsys Altera Technology Pre-mapping, Version maprc, Build 1495R, Built Mar  1 2013 13:00:30
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version H-2013.03
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 56MB peak: 56MB)
+
+Reading constraint file: F:\zyd\FPGA\synplify\proj_1.sdc
+@L: F:\zyd\FPGA\synplify\proj_1_scck.rpt 
+Printing clock  summary report in "F:\zyd\FPGA\synplify\proj_1_scck.rpt" file 
+@N: MF249 |Running in 32-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 57MB peak: 58MB)
+
+Adding property altera_chip_pin_lc, value "E1", to port CLK_25M
+Adding property altera_chip_pin_lc, value "B9,A9,B10,B12,A12,B11,A11,B5,A5,C6", to port ADDRH[25:16]
+Adding property altera_chip_pin_lc, value "E7,F7,D8,E8,F8,F9,E9,C9,D9,E10,C11,D11,A6,B6,B4,A4", to port AD[15:0]
+Adding property altera_chip_pin_lc, value "A10", to port nADV
+Adding property altera_chip_pin_lc, value "C8", to port nE1
+Adding property altera_chip_pin_lc, value "B8", to port nWR
+Adding property altera_chip_pin_lc, value "A7", to port nRD
+Adding property altera_chip_pin_lc, value "A8", to port nWAIT
+Adding property altera_chip_pin_lc, value "F6,F15,G15,F16,G16,C14,D12,D14,F11,G11,F10,K10", to port DAC_D[11:0]
+Adding property altera_chip_pin_lc, value "K12", to port nDAC_CS
+Adding property altera_chip_pin_lc, value "J11", to port nDAC_WR
+Adding property altera_chip_pin_lc, value "K11", to port samp_complete
+Adding property altera_chip_pin_lc, value "D5,D6,C3,D4,E6,D3,F3,E5,F2,D1,G2,F1,J1,G1,K1,J2", to port SRAM_D[15:0]
+Adding property altera_chip_pin_lc, value "L1,K2,L2,K8,K5,K6,L3,L4,L6,N3,P3,M6,N5,N6,P6,L7,P2,P1,T2,R1", to port SRAM_A[19:0]
+Adding property altera_chip_pin_lc, value "N1", to port nSRAM_CE
+Adding property altera_chip_pin_lc, value "R3", to port nSRAM_WE
+Adding property altera_chip_pin_lc, value "T3", to port nSRAM_OE
+Adding property altera_chip_pin_lc, value "L14", to port AC573_LE
+Adding property altera_chip_pin_lc, value "F5", to port FPGA_F5
+Adding property altera_chip_pin_lc, value "J6", to port FPGA_J6
+Adding property altera_chip_pin_lc, value "P8", to port FPGA_P8
+Adding property altera_chip_pin_lc, value "M7", to port FPGA_M7
+Adding property altera_chip_pin_lc, value "N2", to port FPGA_N2
+@W: FA279 |Inconsistent Quartus device library version: Verilog/VHDL compiled using quartus_II121 device library, but clearbox version is quartus_II131.
+
+Finished Clear Box Flow. (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:00s; Memory used current: 64MB peak: 66MB)
+
+
+
+Clock Summary
+**************
+
+Start         Requested     Requested     Clock        Clock              
+Clock         Frequency     Period        Type         Group              
+--------------------------------------------------------------------------
+IntF|nADV     50.0 MHz      20.000        inferred     Inferred_clkgroup_0
+IntF|nWR      50.0 MHz      20.000        inferred     Inferred_clkgroup_1
+==========================================================================
+
+@W: MT529 :"f:\zyd\fpga\synplify\test.vhd":103:3:103:4|Found inferred clock IntF|nADV which controls 16 sequential elements including ADDRL[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"f:\zyd\fpga\synplify\test.vhd":134:2:134:3|Found inferred clock IntF|nWR which controls 32 sequential elements including fre[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.@N: BN225 |Writing default property annotation file F:\zyd\FPGA\synplify\proj_1.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:00s; Memory used current: 31MB peak: 66MB)
+
+Process took 0h:00m:04s realtime, 0h:00m:01s cputime
+# Thu Apr 13 13:40:59 2017
+
+###########################################################]

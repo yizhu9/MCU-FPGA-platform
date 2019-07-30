@@ -1,0 +1,20 @@
+D:\Synopsys\fpga_H201303\bin\m_altera.exe  -prodtype synplify_premier_dp -encrypt  -pro  -rundir  F:\zyd\FPGA\synplify  -part EP4CE10FC17-8   -maxfan 30 -verification_mode 0  -pipe    -fixgatedclocks 1 -fixgeneratedclocks 1  -syn_altera_model on -mif_files_dirs " " -do_enhanced_opt -fast_synthesis 0  -validate_mif_files  -reporting_ctd 1  -RWCheckOnRam 1       -summaryfile F:\zyd\FPGA\synplify\synlog\report\proj_1_fpga_mapper.xml -top_level_module  IntF  -map -flow mapping  -mp 1 -prjfile  F:\zyd\FPGA\synplify\scratchproject.prs  -implementation synplify -licensetype  synplifypremierdp  -vqm41  -ovqm  F:\zyd\FPGA\synplify\proj_1.vqm  -freq 50.000  -tcl  F:\zyd\FPGA\synplify\proj_1.sdc  F:\zyd\FPGA\synplify\synwork\proj_1_premap.srd  -sap  F:\zyd\FPGA\synplify\proj_1.sap  -otap  F:\zyd\FPGA\synplify\proj_1.tap  -omap  F:\zyd\FPGA\synplify\proj_1.map  -devicelib  D:\Synopsys\fpga_H201303\lib\altera\altera.v  -devicelib  D:\Synopsys\fpga_H201303\lib\altera\quartus_II121\cycloneive.v  -devicelib  D:\Synopsys\fpga_H201303\lib\altera\quartus_II121\altera_mf.v  -devicelib  D:\Synopsys\fpga_H201303\lib\altera\quartus_II121\altera_lpm.v  -devicelib  D:\Synopsys\fpga_H201303\lib\altera\quartus_II121\altera_primitives.v  -sap  F:\zyd\FPGA\synplify\proj_1.sap  -ologparam  F:\zyd\FPGA\synplify\syntmp\proj_1.plg  -osyn  F:\zyd\FPGA\synplify\proj_1.srm  -prjdir  F:\zyd\FPGA\synplify\  -prjname  proj_1  -log  F:\zyd\FPGA\synplify\synlog\proj_1_fpga_mapper.srr 
+rc:1 success:1
+F:\zyd\FPGA\synplify\scratchproject.prs|o|1492062052|1700
+F:\zyd\FPGA\synplify\proj_1.vqm|o|1492062061|36886
+F:\zyd\FPGA\synplify\proj_1.sdc|i|1491916816|1971
+F:\zyd\FPGA\synplify\synwork\proj_1_premap.srd|i|1492062059|8503
+F:\zyd\FPGA\synplify\proj_1.sap|o|1492062059|2599
+F:\zyd\FPGA\synplify\proj_1.tap|o|0|0
+F:\zyd\FPGA\synplify\proj_1.map|o|1492062061|28
+D:\Synopsys\fpga_H201303\lib\altera\altera.v|i|1361803204|799
+D:\Synopsys\fpga_H201303\lib\altera\quartus_II121\cycloneive.v|i|1361803284|31855
+D:\Synopsys\fpga_H201303\lib\altera\quartus_II121\altera_mf.v|i|1361803284|209071
+D:\Synopsys\fpga_H201303\lib\altera\quartus_II121\altera_lpm.v|i|1361803284|14912
+D:\Synopsys\fpga_H201303\lib\altera\quartus_II121\altera_primitives.v|i|1361803284|8315
+F:\zyd\FPGA\synplify\proj_1.sap|o|1492062059|2599
+F:\zyd\FPGA\synplify\syntmp\proj_1.plg|o|1492062061|1228
+F:\zyd\FPGA\synplify\proj_1.srm|o|1492062061|26263
+F:\zyd\FPGA\synplify\synlog\proj_1_fpga_mapper.srr|o|1492062061|8833
+D:\Synopsys\fpga_H201303\bin\m_altera.exe|i|1362114032|13656064
+D:\Synopsys\fpga_H201303\bin64\m_altera.exe|i|1362116202|16700928

@@ -1,0 +1,38 @@
+#Build: Synplify Premier with Design Planner H-2013.03, Build 120R, Feb 24 2012
+#install: D:\Synopsys\fpga_H201303
+#OS: Windows 7 6.1
+#Hostname: ZZX
+
+#Implementation: synplify
+
+$ Start of Compile
+#Sat Jan 07 09:58:14 2017
+
+Synopsys VHDL Compiler, version comp201303rc, Build 036R, built Feb 25 2013
+@N|Running in 32-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"D:\Synopsys\fpga_H201303\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"F:\zyd\FPGA\proj_1.vhd":6:7:6:18|Top entity is set to gate_control.
+@E: CD632 :"F:\zyd\FPGA\dff_vol.vhd":6:15:6:16|duplicate entity name dff_vol
+1 error parsing file F:\zyd\FPGA\dff_vol.vhd
+@END
+1 error parsing file F:\zyd\FPGA\fifo.vhd
+@END
+1 error parsing file F:\zyd\FPGA\fifo2.vhd
+@END
+1 error parsing file F:\zyd\FPGA\fre_div.vhd
+@END
+1 error parsing file F:\zyd\FPGA\G0-10.vhd
+@END
+1 error parsing file F:\zyd\FPGA\Gate.vhd
+@END
+1 error parsing file F:\zyd\FPGA\timecount.vhd
+@END
+1 error parsing file F:\zyd\FPGA\proj_1.vhd
+@END
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat Jan 07 09:58:15 2017
+
+###########################################################]

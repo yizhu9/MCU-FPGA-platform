@@ -1,0 +1,59 @@
+#Build: Synplify Premier with Design Planner H-2013.03, Build 120R, Feb 24 2012
+#install: D:\Synopsys\fpga_H201303
+#OS: Windows 7 6.1
+#Hostname: ZZX
+
+#Implementation: synplify
+
+$ Start of Compile
+#Thu Apr 13 21:30:10 2017
+
+Synopsys VHDL Compiler, version comp201303rc, Build 036R, built Feb 25 2013
+@N|Running in 32-bit mode
+Copyright (C) 1994-2013 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+@N: CD720 :"D:\Synopsys\fpga_H201303\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"F:\zyd\FPGA\synplify\test.vhd":15:7:15:10|Top entity is set to IntF.
+File D:\Synopsys\fpga_H201303\lib\altera\quartus_II81\altera_mf.vhd changed - recompiling
+File D:\Synopsys\fpga_H201303\lib\vhdl_sim\synplify.vhd changed - recompiling
+File D:\Synopsys\fpga_H201303\lib\vhd\synattr.vhd changed - recompiling
+File F:\zyd\FPGA\synplify\test.vhd changed - recompiling
+VHDL syntax check successful!
+
+Compiler output is up to date.  No re-compile necessary
+
+@N: CD630 :"F:\zyd\FPGA\synplify\test.vhd":15:7:15:10|Synthesizing work.intf.stru 
+@N: CD630 :"F:\zyd\FPGA\synplify\pll.vhd":42:7:42:9|Synthesizing work.pll.syn 
+@N: CD630 :"F:\zyd\FPGA\synplify\pll.vhd":62:11:62:16|Synthesizing altera_mf.altpll_work_intf_stru_1.syn_black_box 
+Post processing for altera_mf.altpll_work_intf_stru_1.syn_black_box
+Post processing for work.pll.syn
+Post processing for work.intf.stru
+@W: CL240 :"F:\zyd\FPGA\synplify\test.vhd":54:3:54:9|FPGA_N2 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"F:\zyd\FPGA\synplify\test.vhd":53:3:53:9|FPGA_M7 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"F:\zyd\FPGA\synplify\test.vhd":52:3:52:9|FPGA_P8 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"F:\zyd\FPGA\synplify\test.vhd":51:3:51:9|FPGA_J6 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL240 :"F:\zyd\FPGA\synplify\test.vhd":50:3:50:9|FPGA_F5 is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL168 :"F:\zyd\FPGA\synplify\test.vhd":94:4:94:7|Pruning instance PLL0 -- not in use ... 
+@W: CL117 :"F:\zyd\FPGA\synplify\test.vhd":103:3:103:4|Latch generated from process for signal ADDRL(15 downto 0); possible missing assignment in an if or case statement.
+@W: CL247 :"F:\zyd\FPGA\synplify\test.vhd":20:6:20:10|Input port bit 25 of addrh(25 downto 16) is unused 
+@W: CL159 :"F:\zyd\FPGA\synplify\test.vhd":18:3:18:9|Input CLK_25M is unused
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 38MB peak: 39MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 13 21:30:10 2017
+
+###########################################################]
+
+@N: premap output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Premap Report
+@R:"F:\zyd\FPGA\synplify\synlog\proj_1_premap.srr"
+
+@N: fpga_mapper output is up to date. No run necessary.
+To force a re-synthesis, select [Resynthesize All] in menu [Run].
+Click link to view previous log file.
+Map & Optimize Report
+@R:"F:\zyd\FPGA\synplify\synlog\proj_1_fpga_mapper.srr"

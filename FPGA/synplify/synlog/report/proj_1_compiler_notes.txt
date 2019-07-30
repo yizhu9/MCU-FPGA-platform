@@ -1,0 +1,7 @@
+@N|Running in 32-bit mode
+@N: CD720 :"D:\Synopsys\fpga_H201303\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"F:\zyd\FPGA\synplify\test.vhd":15:7:15:10|Top entity is set to IntF.
+@N: CD630 :"F:\zyd\FPGA\synplify\test.vhd":15:7:15:10|Synthesizing work.intf.stru 
+@N: CD630 :"F:\zyd\FPGA\synplify\pll.vhd":42:7:42:9|Synthesizing work.pll.syn 
+@N: CD630 :"F:\zyd\FPGA\synplify\pll.vhd":62:11:62:16|Synthesizing altera_mf.altpll_work_intf_stru_1.syn_black_box 
+

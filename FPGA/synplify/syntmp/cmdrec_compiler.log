@@ -1,0 +1,8 @@
+D:\Synopsys\fpga_H201303\bin\c_vhdl.exe  -prodtype  synplify_premier_dp  -osyn  F:\zyd\FPGA\synplify\synwork\proj_1_compiler.srs  -top  IntF  -dw  -verification_mode 0 -infer_seqShift -primux -fixsmult -dspmac  -nram -divnmod -fast_synthesis 0   -encrypt  -pro  -dmgen  F:\zyd\FPGA\synplify\dm  -lite -ll 2000   -proto -ui -fid2 -ram -sharing on     -autosm -ignore_undefined_lib  -lib work F:\zyd\FPGA\synplify\pll.vhd -lib work F:\zyd\FPGA\synplify\test.vhd -loga  F:\zyd\FPGA\synplify\proj_1.srr 
+rc:0 success:1
+F:\zyd\FPGA\synplify\synwork\proj_1_compiler.srs|o|1492062053|5116
+F:\zyd\FPGA\synplify\pll.vhd|i|1491829423|15051
+F:\zyd\FPGA\synplify\test.vhd|i|1492061939|5064
+F:\zyd\FPGA\synplify\proj_1.srr|o|1492090210|3020
+D:\Synopsys\fpga_H201303\bin\c_vhdl.exe|i|1361803140|1940992
+D:\Synopsys\fpga_H201303\bin64\c_vhdl.exe|i|1361803150|5415936

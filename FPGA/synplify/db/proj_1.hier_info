@@ -1,0 +1,239 @@
+|IntF
+CLK_25M => CLK_25M_in.DATA
+ADDRH[16] => ADDRH_in_16_.DATA
+ADDRH[17] => ADDRH_in_17_.DATA
+ADDRH[18] => ADDRH_in_18_.DATA
+ADDRH[19] => ADDRH_in_19_.DATA
+ADDRH[20] => ADDRH_in_20_.DATA
+ADDRH[21] => ADDRH_in_21_.DATA
+ADDRH[22] => ADDRH_in_22_.DATA
+ADDRH[23] => ADDRH_in_23_.DATA
+ADDRH[24] => ADDRH_in_24_.DATA
+ADDRH[25] => ADDRH_in_25_.DATA
+AD[0] <> o
+AD[1] <> o_0
+AD[2] <> o_1
+AD[3] <> o_2
+AD[4] <> o_3
+AD[5] <> o_4
+AD[6] <> o_5
+AD[7] <> o_6
+AD[8] <> o_7
+AD[9] <> o_8
+AD[10] <> o_9
+AD[11] <> o_10
+AD[12] <> o_11
+AD[13] <> o_12
+AD[14] <> o_13
+AD[15] <> o_14
+nADV => nADV_in.DATA
+nE1 => nE1_in.DATA
+nWR => nWR_in.DATA
+nRD => nRD_in.DATA
+nWAIT <= nWAIT_out.OUT
+DAC_D[0] <= DAC_D_out_0_.OUT
+DAC_D[1] <= DAC_D_out_1_.OUT
+DAC_D[2] <= DAC_D_out_2_.OUT
+DAC_D[3] <= DAC_D_out_3_.OUT
+DAC_D[4] <= DAC_D_out_4_.OUT
+DAC_D[5] <= DAC_D_out_5_.OUT
+DAC_D[6] <= DAC_D_out_6_.OUT
+DAC_D[7] <= DAC_D_out_7_.OUT
+DAC_D[8] <= DAC_D_out_8_.OUT
+DAC_D[9] <= DAC_D_out_9_.OUT
+DAC_D[10] <= DAC_D_out_10_.OUT
+DAC_D[11] <= DAC_D_out_11_.OUT
+nDAC_CS <= nDAC_CS_out.OUT
+nDAC_WR <= nDAC_WR_out.OUT
+samp_complete <= samp_complete_out.OUT
+SRAM_D[0] <> o_15
+SRAM_D[1] <> o_16
+SRAM_D[2] <> o_17
+SRAM_D[3] <> o_18
+SRAM_D[4] <> o_19
+SRAM_D[5] <> o_20
+SRAM_D[6] <> o_21
+SRAM_D[7] <> o_22
+SRAM_D[8] <> o_23
+SRAM_D[9] <> o_24
+SRAM_D[10] <> o_25
+SRAM_D[11] <> o_26
+SRAM_D[12] <> o_27
+SRAM_D[13] <> o_28
+SRAM_D[14] <> o_29
+SRAM_D[15] <> o_30
+SRAM_A[0] <= SRAM_A_out_0_.OUT
+SRAM_A[1] <= SRAM_A_out_1_.OUT
+SRAM_A[2] <= SRAM_A_out_2_.OUT
+SRAM_A[3] <= SRAM_A_out_3_.OUT
+SRAM_A[4] <= SRAM_A_out_4_.OUT
+SRAM_A[5] <= SRAM_A_out_5_.OUT
+SRAM_A[6] <= SRAM_A_out_6_.OUT
+SRAM_A[7] <= SRAM_A_out_7_.OUT
+SRAM_A[8] <= SRAM_A_out_8_.OUT
+SRAM_A[9] <= SRAM_A_out_9_.OUT
+SRAM_A[10] <= SRAM_A_out_10_.OUT
+SRAM_A[11] <= SRAM_A_out_11_.OUT
+SRAM_A[12] <= SRAM_A_out_12_.OUT
+SRAM_A[13] <= SRAM_A_out_13_.OUT
+SRAM_A[14] <= SRAM_A_out_14_.OUT
+SRAM_A[15] <= SRAM_A_out_15_.OUT
+SRAM_A[16] <= SRAM_A_out_16_.OUT
+SRAM_A[17] <= SRAM_A_out_17_.OUT
+SRAM_A[18] <= SRAM_A_out_18_.OUT
+SRAM_A[19] <= SRAM_A_out_19_.OUT
+nSRAM_CE <= nSRAM_CE_out.OUT
+nSRAM_WE <= nSRAM_WE_out.OUT
+nSRAM_OE <= nSRAM_OE_out.OUT
+AC573_LE <= AC573_LE_out.OUT
+FPGA_F5 <= FPGA_F5_out.OUT
+FPGA_J6 <= FPGA_J6_out.OUT
+FPGA_P8 <= FPGA_P8_out.OUT
+FPGA_M7 <= FPGA_M7_out.OUT
+FPGA_N2 <= FPGA_N2_out.OUT
+
+
+|IntF|lpm_latch:ADDRL_0_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_1_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_2_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_3_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_4_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_5_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_6_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_7_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_8_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_9_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_10_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_11_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_12_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_13_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_14_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IntF|lpm_latch:ADDRL_15_
+data[0] => latches[0].DATAIN
+gate => latches[0].LATCH_ENABLE
+aclr => ~NO_FANOUT~
+aset => ~NO_FANOUT~
+aconst => ~NO_FANOUT~
+q[0] <= latches[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,30 @@
+%%% protect protected_file
+#defaultlanguage:vhdl
+#OPTIONS:"|-prodtype|synplify_premier_dp|-top|IntF|-dw|-verification_mode|0|-infer_seqShift|-primux|-fixsmult|-dspmac|-nram|-divnmod|-fast_synthesis|0|-encrypt|-pro|-lite|-ll|2000|-proto|-ui|-fid2|-ram|-sharing|on|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"D:\\Synopsys\\fpga_H201303\\bin\\c_vhdl.exe":1361803140
+#CUR:"D:\\Synopsys\\fpga_H201303\\lib\\vhd\\location.map":1361850558
+#CUR:"D:\\Synopsys\\fpga_H201303\\lib\\vhd\\std.vhd":1361803524
+#CUR:"D:\\Synopsys\\fpga_H201303\\lib\\vhd\\snps_haps_pkg.vhd":1361803524
+#CUR:"D:\\Synopsys\\fpga_H201303\\lib\\vhd\\std1164.vhd":1361803524
+#CUR:"D:\\Synopsys\\fpga_H201303\\lib\\vhd\\numeric.vhd":1361803524
+#CUR:"D:\\Synopsys\\fpga_H201303\\lib\\vhd\\umr_capim.vhd":1361803526
+#CUR:"D:\\Synopsys\\fpga_H201303\\lib\\vhd\\arith.vhd":1361803524
+#CUR:"D:\\Synopsys\\fpga_H201303\\lib\\vhd\\unsigned.vhd":1361803526
+#CUR:"F:\\zyd\\FPGA\\synplify\\pll.vhd":1491829423
+#CUR:"F:\\zyd\\FPGA\\synplify\\test.vhd":1492061939
+0 "F:\zyd\FPGA\synplify\pll.vhd" vhdl
+1 "F:\zyd\FPGA\synplify\test.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 -1
+1 0 
+
+# Dependency Lists (Users Of)
+0 1 
+1 -1
+
+# Design Unit to File Association
+arch work pll syn 0
+module work pll 0
+arch work intf stru 1
+module work intf 1

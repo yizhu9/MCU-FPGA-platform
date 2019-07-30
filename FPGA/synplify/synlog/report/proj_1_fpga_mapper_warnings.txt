@@ -1,0 +1,3 @@
+@W: FA279 |Inconsistent Quartus device library version: Verilog/VHDL compiled using quartus_II121 device library, but clearbox version is quartus_II131.
+@W: MT420 |Found inferred clock IntF|nADV with period 20.00ns. Please declare a user-defined clock on object "p:nADV"
+@W: MT420 |Found inferred clock IntF|nWR with period 20.00ns. Please declare a user-defined clock on object "p:nWR"

@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\include -I .\fwlib\inc --c99
+-IF:\STM_iCore3\Code\ARM\iCore3_28_FSMC\28_fsmc\stm32\RTE\_Target_1
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.11.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-D__UVISION_VERSION="522" -D_RTE_ -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER --C99
+-o .\objects\fpga_flag_in.o --omf_browse .\objects\fpga_flag_in.crf --depend .\objects\fpga_flag_in.d "driver\fpga_flag_in.c"
